@@ -1,0 +1,163 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #f4f4f9, #e9f5ff);
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: url('bg\ image.jpg') no-repeat center center / cover;
+    color: #fff;
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}   
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Section */
+.section {
+    padding: 4rem 0;
+    text-align:center;
+}
+
+.section h2 {
+    color: #004d99;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.section p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Video Section */
+.video-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.video-container h3 {
+    color: #0073e6;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.video-container video {
+    border: 3px solid #0073e6;
+    border-radius: 10px;
+    max-width: 70%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #0073e6;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #005bb5;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+/* Links Hover */
+footer a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+/* Centered List Styling */
+.section ul {
+    list-style: disc inside; /* Keeps dots inside the container */
+    display: inline-block;   /* Makes the list behave like an inline element for centering */
+    text-align: left;        /* Ensures proper alignment of text with dots */
+    padding: 0;
+    margin: 0 auto;          /* Centers the list */
+}
+
+.section li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;        /* Adds space between list items */
+    color: #333;             /* Text color */
+}
+
